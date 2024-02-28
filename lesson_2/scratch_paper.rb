@@ -1,9 +1,9 @@
-a = "foo"
-
-def foo(bar)
-  bar = bar.upcase
+def increment(a)
+  a[0] += 1
 end
 
-foo(a)
+a = [5, 7, 9]
 
-puts a
+increment(a)
+
+p a
