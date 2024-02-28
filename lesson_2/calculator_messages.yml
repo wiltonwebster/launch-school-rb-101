@@ -1,0 +1,17 @@
+# Output messages from the calculator.rb program
+
+welcome: 'Welcome to the Calculator. Enter your name:'
+valid_name: 'Make sure to enter a valid name.'
+greeting: "Hi #{name}!"
+first_number: 'Please enter your first number:'
+second_number: 'Please enter your second number:'
+valid_number: 'Invalid entry. Try again.'
+operator_prompt: |
+  Select an operation to perform.
+    1. Add
+    2. Subtract
+    3. Multiply
+    4. Divide
+valid_operator: 'Invalid entry. Please choose 1, 2, 3, or 4.'
+new_calculation: 'Do you want to perform another calculation? (Y to calculate again)'
+farewell: "Thank you for using the Calculator. Goodbye!"
