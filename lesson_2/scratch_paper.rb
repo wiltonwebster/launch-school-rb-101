@@ -1,9 +1,5 @@
-def increment(a)
-  a[0] += 1
+num = 8
+
+if num >= 8 && num < 6 || num > 4
+  puts 'Goodbye'
 end
-
-a = [5, 7, 9]
-
-increment(a)
-
-p a
